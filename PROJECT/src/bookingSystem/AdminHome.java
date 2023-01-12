@@ -495,7 +495,6 @@ public class AdminHome extends JFrame {
         // If the administrator clicks "Yes", all the booking details records will be deleted.
         if (a == JOptionPane.YES_OPTION) 
         {
-            dispose();
             // The admin will return to the admin home page.
             AdminHome obj = new AdminHome();
             obj.setTitle("Admin-Home");
